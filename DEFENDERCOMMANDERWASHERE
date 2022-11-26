@@ -1,0 +1,518 @@
+local ScreenGui = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(43,43,43)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.32650274, 0, 0.4334650937, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=0"
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.422131121, 0, 0.446640313, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "                                Legit Sense Loaded"
+TextLabel.TextColor3 = Color3.fromRGB(160,32,240)
+TextLabel.TextSize = 20.000
+
+
+TextLabel_2.Parent = ScreenGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.420765013, 0, 0.476943344, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "                                    Thanks For Using Legit Sense "..game.Players.LocalPlayer.Name
+TextLabel_2.TextColor3 = Color3.fromRGB(160,32,240)
+TextLabel_2.TextSize = 20.000
+
+
+
+local blur = Instance.new('BlurEffect', game.Lighting)
+    blur.Size = 3
+TextLabel_2.TextStrokeTransparency = 1
+TextLabel.TextTransparency = 1
+TextLabel_2.TextTransparency = 1
+TextLabel.TextStrokeTransparency = 1
+ImageLabel.ImageTransparency = 1
+    wait(0.1)
+    blur.Size = 6
+TextLabel_2.TextStrokeTransparency = 0.9
+TextLabel.TextTransparency = 0.9
+TextLabel_2.TextTransparency = 0.9
+TextLabel.TextStrokeTransparency = 0.9
+ImageLabel.ImageTransparency = 0.9
+    wait(0.1)
+    blur.Size = 8
+TextLabel_2.TextStrokeTransparency = 0.8
+TextLabel.TextTransparency = 0.8
+TextLabel_2.TextTransparency = 0.8
+TextLabel.TextStrokeTransparency = 0.8
+ImageLabel.ImageTransparency = 0.8
+    wait(0.1)
+    blur.Size = 10
+TextLabel_2.TextStrokeTransparency = 0.7
+TextLabel.TextTransparency = 0.7
+TextLabel_2.TextTransparency = 0.7
+TextLabel.TextStrokeTransparency = 0.7
+ImageLabel.ImageTransparency = 0.7
+    wait(0.1)
+    blur.Size = 12
+TextLabel_2.TextStrokeTransparency = 0.6
+TextLabel.TextTransparency = 0.6
+TextLabel_2.TextTransparency = 0.6
+TextLabel.TextStrokeTransparency = 0.6
+ImageLabel.ImageTransparency = 0.6
+    wait(0.1)
+    blur.Size = 14
+    TextLabel_2.TextStrokeTransparency = 0.5
+TextLabel.TextTransparency = 0.5
+TextLabel_2.TextTransparency = 0.5
+TextLabel.TextStrokeTransparency = 0.5
+ImageLabel.ImageTransparency = 0.5
+    wait(0.1)
+    blur.Size = 15
+TextLabel_2.TextStrokeTransparency = 0.4
+TextLabel.TextTransparency = 0.4
+TextLabel_2.TextTransparency = 0.4
+TextLabel.TextStrokeTransparency = 0.4
+ImageLabel.ImageTransparency = 0.4
+    wait(0.1)
+    blur.Size = 16
+ TextLabel_2.TextStrokeTransparency = 0
+TextLabel.TextTransparency = 0
+TextLabel_2.TextTransparency = 0
+TextLabel.TextStrokeTransparency = 0
+ImageLabel.ImageTransparency = 0
+    wait(2.5)
+    game.Lighting.Blur:Destroy()
+    local blur = Instance.new('BlurEffect', game.Lighting)
+    blur.Size = 15
+     TextLabel_2.TextStrokeTransparency = 0.1
+TextLabel.TextTransparency = 0.1
+TextLabel_2.TextTransparency = 0.1
+TextLabel.TextStrokeTransparency = 0.1
+ImageLabel.ImageTransparency = 0.1
+    wait(0.1)
+        game.Lighting.Blur:Destroy()
+    local blur = Instance.new('BlurEffect', game.Lighting)
+    blur.Size = 14
+     TextLabel_2.TextStrokeTransparency = 0.2
+TextLabel.TextTransparency = 0.2
+TextLabel_2.TextTransparency = 0.2
+TextLabel.TextStrokeTransparency = 0.2
+ImageLabel.ImageTransparency = 0.2
+    wait(0.1)
+        game.Lighting.Blur:Destroy()
+    local blur = Instance.new('BlurEffect', game.Lighting)
+    blur.Size = 12
+     TextLabel_2.TextStrokeTransparency = 0.4
+TextLabel.TextTransparency = 0.4
+TextLabel_2.TextTransparency = 0.4
+TextLabel.TextStrokeTransparency = 0.4
+ImageLabel.ImageTransparency = 0.4
+    wait(0.1)
+        game.Lighting.Blur:Destroy()
+    local blur = Instance.new('BlurEffect', game.Lighting)
+    blur.Size = 10
+     TextLabel_2.TextStrokeTransparency = 0.5
+TextLabel.TextTransparency = 0.5
+TextLabel_2.TextTransparency = 0.5
+TextLabel.TextStrokeTransparency = 0.5
+ImageLabel.ImageTransparency = 0.5
+        wait(0.1)
+        game.Lighting.Blur:Destroy()
+    local blur = Instance.new('BlurEffect', game.Lighting)
+    blur.Size = 8
+     TextLabel_2.TextStrokeTransparency = 0.7
+TextLabel.TextTransparency = 0.7
+TextLabel_2.TextTransparency = 0.7
+TextLabel.TextStrokeTransparency = 0.7
+ImageLabel.ImageTransparency = 0.7
+        wait(0.1)
+        game.Lighting.Blur:Destroy()
+    local blur = Instance.new('BlurEffect', game.Lighting)
+    blur.Size = 6 
+     TextLabel_2.TextStrokeTransparency = 0.8
+TextLabel.TextTransparency = 0.8
+TextLabel_2.TextTransparency = 0.8
+TextLabel.TextStrokeTransparency = 0.8
+ImageLabel.ImageTransparency = 0.8
+        wait(0.1)
+        game.Lighting.Blur:Destroy()
+    local blur = Instance.new('BlurEffect', game.Lighting)
+    blur.Size = 3
+     TextLabel_2.TextStrokeTransparency = 1
+TextLabel.TextTransparency = 1
+TextLabel_2.TextTransparency = 1
+TextLabel.TextStrokeTransparency = 1
+ImageLabel.ImageTransparency = 1
+        wait(0.1)
+        game.Lighting.Blur:Destroy()
+        wait(0.5)
+
+-- I DON'T OWN ANY OF THESE SOURCES SO DON'T CALL ME A SKID --
+
+getgenv().AimPart = "HumanoidRootPart"
+getgenv().AimlockToggleKey = "Y"
+getgenv().AimRadius = 50
+getgenv().TeamCheck = false
+getgenv().PredictMovement = true
+getgenv().PredictionVelocity = 10
+
+getgenv().FuckHoodUniversalAimbotLoadingTime = tick()
+if FuckHoodUniversalAimbotLoaded == true then
+    Notify("Legit Sense", "Script Loaded In", "", 3)
+    return 
+end
+
+local Players, Uis, RService, SGui = game:GetService"Players", game:GetService"UserInputService", game:GetService"RunService", game:GetService"StarterGui";
+local Client, Mouse, Camera, CF, RNew, Vec3, Vec2 = Players.LocalPlayer, Players.LocalPlayer:GetMouse(), workspace.CurrentCamera, CFrame.new, Ray.new, Vector3.new, Vector2.new;
+local Aimlock, MousePressed, CanNotify = true, false, false;
+local AimlockTarget;
+getgenv().FuckHoodUniversalAimbotLoaded = true
+
+getgenv().SeparateNotify = function(title, text, icon, time) 
+    SGui:SetCore("SendNotification",{
+        Title = title;
+        Text = text;
+        Icon = "";
+        Duration = time;
+    })
+end
+
+getgenv().Notify = function(title, text, icon, time)
+    if CanNotify == true then 
+        if not time or not type(time) == "number" then time = 3 end
+        SGui:SetCore("SendNotification",{
+            Title = title;
+            Text = text;
+            Icon = "";
+            Duration = time;
+        }) 
+    end
+end
+getgenv().ThirdPerson = true
+getgenv().FirstPerson = true 
+getgenv().WorldToViewportPoint = function(P)
+    return Camera:WorldToViewportPoint(P)
+end
+
+getgenv().WorldToScreenPoint = function(P)
+    return Camera.WorldToScreenPoint(Camera, P)
+end
+
+getgenv().GetObscuringObjects = function(T)
+    if T and T:FindFirstChild(getgenv().AimPart) and Client and Client.Character:FindFirstChild("Head") then 
+        local RayPos = workspace:FindPartOnRay(RNew(
+            T[getgenv().AimPart].Position, Client.Character.Head.Position)
+        )
+        if RayPos then return RayPos:IsDescendantOf(T) end
+    end
+end
+
+getgenv().GetNearestTarget = function()
+    local players = {}
+    local PLAYER_HOLD  = {}
+    local DISTANCES = {}
+    for i, v in pairs(Players:GetPlayers()) do
+        if v ~= Client then
+            table.insert(players, v)
+        end
+    end
+    for i, v in pairs(players) do
+        if v.Character ~= nil then
+            local AIM = v.Character:FindFirstChild("Head")
+            if getgenv().TeamCheck == true and v.Team ~= Client.Team then
+                local DISTANCE = (v.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p).magnitude
+                local RAY = Ray.new(game.Workspace.CurrentCamera.CFrame.p, (Mouse.Hit.p - game.Workspace.CurrentCamera.CFrame.p).unit * DISTANCE)
+                local HIT,POS = game.Workspace:FindPartOnRay(RAY, game.Workspace)
+                local DIFF = math.floor((POS - AIM.Position).magnitude)
+                PLAYER_HOLD[v.Name .. i] = {}
+                PLAYER_HOLD[v.Name .. i].dist= DISTANCE
+                PLAYER_HOLD[v.Name .. i].plr = v
+                PLAYER_HOLD[v.Name .. i].diff = DIFF
+                table.insert(DISTANCES, DIFF)
+            elseif getgenv().TeamCheck == false and v.Team == Client.Team then 
+                local DISTANCE = (v.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p).magnitude
+                local RAY = Ray.new(game.Workspace.CurrentCamera.CFrame.p, (Mouse.Hit.p - game.Workspace.CurrentCamera.CFrame.p).unit * DISTANCE)
+                local HIT,POS = game.Workspace:FindPartOnRay(RAY, game.Workspace)
+                local DIFF = math.floor((POS - AIM.Position).magnitude)
+                PLAYER_HOLD[v.Name .. i] = {}
+                PLAYER_HOLD[v.Name .. i].dist= DISTANCE
+                PLAYER_HOLD[v.Name .. i].plr = v
+                PLAYER_HOLD[v.Name .. i].diff = DIFF
+                table.insert(DISTANCES, DIFF)
+            end
+        end
+    end
+    
+    if unpack(DISTANCES) == nil then
+        return nil
+    end
+    
+    local L_DISTANCE = math.floor(math.min(unpack(DISTANCES)))
+    if L_DISTANCE > getgenv().AimRadius then
+        return nil
+    end
+    
+    for i, v in pairs(PLAYER_HOLD) do
+        if v.diff == L_DISTANCE then
+            return v.plr
+        end
+    end
+    return nil
+end
+
+Uis.InputBegan:Connect(function(Key)
+    if not (Uis:GetFocusedTextBox()) then 
+        if Key.UserInputType == Enum.UserInputType.MouseButton2 then 
+            pcall(function()
+                if MousePressed ~= true then MousePressed = true end 
+                local Target;Target = GetNearestTarget()
+                if Target ~= nil then 
+                    AimlockTarget = Target
+                    
+                end
+            end)
+        end
+        if Key.KeyCode == Enum.KeyCode[AimlockToggleKey] then 
+            Aimlock = not Aimlock
+
+        end
+    end
+end)
+Uis.InputEnded:Connect(function(Key)
+    if not (Uis:GetFocusedTextBox()) then 
+        if Key.UserInputType == Enum.UserInputType.MouseButton2 then 
+            if AimlockTarget ~= nil then AimlockTarget = nil end
+            if MousePressed ~= false then 
+                MousePressed = false 
+            end
+        end
+    end
+end)
+
+RService.RenderStepped:Connect(function()
+CanNotify = true
+    if Aimlock == true and MousePressed == true then 
+        if AimlockTarget and AimlockTarget.Character and AimlockTarget.Character:FindFirstChild(getgenv().AimPart) then 
+            if getgenv().FirstPerson == true and getgenv().ThirdPerson == true then
+                if CanNotify == true then
+                    if getgenv().PredictMovement == true then 
+                        Camera.CFrame = CF(Camera.CFrame.p, AimlockTarget.Character[getgenv().AimPart].Position + AimlockTarget.Character[getgenv().AimPart].Velocity/PredictionVelocity)
+                    elseif getgenv().PredictMovement == false then 
+                        Camera.CFrame = CF(Camera.CFrame.p, AimlockTarget.Character[getgenv().AimPart].Position)
+                    end
+                end
+            end
+        end
+    end
+end)
+
+repeat wait() until game:IsLoaded() and game:WaitForChild"Players";
+
+local Players, Uis, SGui = game:GetService"Players", game:GetService"UserInputService", game:GetService"StarterGui"; -- Services
+local Client, AntiGH = Players.LocalPlayer, true;
+
+function Notify(NTitle, NText, NIcon, NDuration)
+   SGui:SetCore("SendNotification", {
+       Title = NTitle;
+       Text = NText;
+       Icon = NIcon;
+       Duration = NDuration;
+   })
+end
+
+function StateChangedEvent(T, Changed)
+   if AntiGH == true then
+       if Client and Client.Character and Client.Character:FindFirstChildOfClass"Humanoid" then
+           if Changed == Enum.HumanoidStateType.FallingDown or Changed == Enum.HumanoidStateType.PlatformStanding then
+               Client.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Running);Client.Character.Humanoid.PlatformStand = false -- Credits to Aidez for this part
+           end
+       end
+   end
+end
+Client.Character:WaitForChild"Humanoid".StateChanged:Connect(StateChangedEvent)
+
+function CharacterAddedEvent()
+   Client.Character:WaitForChild"Humanoid";
+   Client.Character.Humanoid.StateChanged:Connect(StateChangedEvent)
+end
+Client.CharacterAdded:Connect(CharacterAddedEvent)
+
+Uis.InputBegan:Connect(function(Key)
+   if not Uis:GetFocusedTextBox() then
+       if Key.KeyCode == Enum.KeyCode.RightAlt then
+           AntiGH = not AntiGH
+           Notify("xaxa", "Anti Ground-Hit: "..tostring(AntiGH), nil, 3)
+       end
+   end
+end)
+
+local ScreenGui = Instance.new("ScreenGui")
+local ClipsTxt = Instance.new("TextLabel")
+local BulletsTxt = Instance.new("TextLabel")
+ScreenGui.Parent = game.CoreGui
+ClipsTxt.Name = "ClipsTxt"
+ClipsTxt.Parent = ScreenGui
+ClipsTxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ClipsTxt.BackgroundTransparency = 1.000
+ClipsTxt.Position = UDim2.new(0, 0, 0.10211359, 0)
+ClipsTxt.Size = UDim2.new(0, 200, 0, 50)
+ClipsTxt.Font = Enum.Font.Gotham
+ClipsTxt.Text = "Clips:"
+ClipsTxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+ClipsTxt.TextSize = 24.000
+ClipsTxt.Visible = false
+
+BulletsTxt.Name = "BulletsTxt"
+BulletsTxt.Parent = ScreenGui
+BulletsTxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BulletsTxt.BackgroundTransparency = 1.000
+BulletsTxt.Position = UDim2.new(0, 0, 0.14211359, 0)
+BulletsTxt.Size = UDim2.new(0, 200, 0, 50)
+BulletsTxt.Font = Enum.Font.Gotham
+BulletsTxt.Text = "Bullets:"
+BulletsTxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+BulletsTxt.TextSize = 24.000
+BulletsTxt.Visible = false
+game.Players.LocalPlayer.PlayerGui.HUD:FindFirstChild("Ammo"):Destroy()
+
+function CustomAmmoUI()
+local gunequipped = false
+for _,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+    if v:IsA("Tool") then
+        if v ~= nil then    
+v.Equipped:Connect(function()
+if v:FindFirstChild("Clips") and v:FindFirstChild("Ammo") then        
+wait(.1)
+ClipsTxt.Text = "Clips:"
+BulletsTxt.Text = "Bullets:"        
+gunequipped = true    
+BulletsTxt.Visible = true
+ClipsTxt.Visible = true
+repeat    
+BulletsTxt.Text = "Bullets: "..v:FindFirstChild("Ammo").Value..""
+ClipsTxt.Text = "Clips: "..v:FindFirstChild("Clips").Value..""
+game:GetService("RunService").Heartbeat:Wait()    
+until gunequipped == false
+else
+return nil            
+end                
+end)
+v.Unequipped:Connect(function()
+ClipsTxt.Text = "Clips:"
+BulletsTxt.Text = "Bullets:"
+gunequipped = false    
+BulletsTxt.Visible = false
+ClipsTxt.Visible = false
+end)
+end            
+end    
+end    
+end
+CustomAmmoUI()
+game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()
+game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+end)
+game.Players.LocalPlayer.CharacterAdded:Connect(function()    
+local hud = game.Players.LocalPlayer.PlayerGui:WaitForChild("HUD")
+hud.Ammo:Destroy()
+wait(1)
+CustomAmmoUI()    
+end)
+
+local LocalP = game.Players.LocalPlayer
+
+LocalP.Character.Stamina.Changed:Connect(function()
+    LocalP.Character:WaitForChild"Stamina"
+    LocalP.Character.Stamina.Value = 100 
+end)
+LocalP.CharacterAdded:Connect(function()
+    LocalP.Character:WaitForChild"Stamina"
+    LocalP.Character.Stamina.Changed:Connect(function()
+        LocalP.Character.Stamina.Value = 100 
+    end)
+end)
+
+enabled = true
+spyOnMyself = true
+public = false
+publicItalics = true
+privateProperties = {
+	Color = Color3.fromRGB(0,255,255); 
+	Font = Enum.Font.SourceSansBold;
+	TextSize = 18;
+}
+local StarterGui = game:GetService("StarterGui")
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):Wait() or Players.LocalPlayer
+local saymsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest")
+local getmsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("OnMessageDoneFiltering")
+local instance = (_G.chatSpyInstance or 0) + 1
+_G.chatSpyInstance = instance
+
+local function onChatted(p,msg)
+	if _G.chatSpyInstance == instance then
+		if p==player and msg:lower():sub(1,4)=="/spy" then
+			enabled = not enabled
+			wait(0.3)
+			privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+			StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+		elseif enabled and (spyOnMyself==true or p~=player) then
+			msg = msg:gsub("[\n\r]",''):gsub("\t",' '):gsub("[ ]+",' ')
+			local hidden = true
+			local conn = getmsg.OnClientEvent:Connect(function(packet,channel)
+				if packet.SpeakerUserId==p.UserId and packet.Message==msg:sub(#msg-#packet.Message+1) and (channel=="All" or (channel=="Team" and public==false and Players[packet.FromSpeaker].Team==player.Team)) then
+					hidden = false
+				end
+			end)
+			wait(1)
+			conn:Disconnect()
+			if hidden and enabled then
+				if public then
+					saymsg:FireServer((publicItalics and "/me " or '').."{SPY} [".. p.Name .."]: "..msg,"All")
+				else
+					privateProperties.Text = "{SPY} [".. p.Name .."]: "..msg
+					StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+				end
+			end
+		end
+	end
+end
+
+for _,p in ipairs(Players:GetPlayers()) do
+	p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+end
+Players.PlayerAdded:Connect(function(p)
+	p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+end)
+privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+if not player.PlayerGui:FindFirstChild("Chat") then wait(3) end
+local chatFrame = player.PlayerGui.Chat.Frame
+chatFrame.ChatChannelParentFrame.Visible = true
+chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+
+function onKeyPress(actionName, userInputState, inputObject)
+   if userInputState == Enum.UserInputState.Begin then
+       game.Players.LocalPlayer.Character["Right Arm"]:Remove()
+       game.Players.LocalPlayer.Character["Left Arm"]:Remove()
+       game.Players.LocalPlayer.Character["Right Leg"]:Remove()
+       game.Players.LocalPlayer.Character["Left Leg"]:Remove()
+       game.Players.LocalPlayer.Character["Torso"]:Remove()
+       game.Players.LocalPlayer.Character["Head"]:Remove()
+end
+end
+
+game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.R)
